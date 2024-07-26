@@ -1,0 +1,13 @@
+version: 2
+
+exposures:
+
+  - name: tableau_data_source
+    type: analysis
+    label: Tableau Data Source
+    description: Analytics ready datasets for Tableau
+    tags: ['business_intelligence']
+    depends_on:
+      - ref('customers')
+    owner:
+      name: Jack Liu
